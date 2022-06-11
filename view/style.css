@@ -1,0 +1,65 @@
+/* Removing default margin and padding  of browser*/
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 215, 192);
+    
+}
+
+/* Styling the heading h1 */
+div h1{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+#section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    padding: 5px;
+}
+#section h3{
+    margin: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form input{
+    margin: 10px;
+    padding: 5px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+form button{
+    margin: 20px;
+    padding: 5px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgb(92, 54, 29);
+    color: aliceblue;
+}
+form button:hover{
+    font-weight: bold;
+    
+}
+#next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+#next a{
+    text-decoration: none;
+    color: rgb(2, 2, 173);
+}
+#next a:hover{
+    font-weight: bold;
+    color: rgb(78, 78, 194);
+
+}

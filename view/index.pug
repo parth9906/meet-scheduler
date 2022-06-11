@@ -1,0 +1,17 @@
+html
+  head
+    style 
+      include style.css
+    title project 1
+  body
+    div#head 
+        h1 Welcome to Our Website
+
+    div#section 
+        h3 Schedule your meeting here
+        form(action="/" method="post") 
+          input(type="text", name="link" placeholder ="Enter the link" )
+          input(type="datetime-local" name="datetime" )
+          button Submit
+    //- div#next
+    //-   a(href="/scheduled") see scheduled meeting  
